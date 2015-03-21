@@ -28,9 +28,9 @@ Your web application is now live!
 - Less
 - JS
 
-### JavaScript Libraries
-- jQuery
+### 3rd Party Libraries
 - Lodash
+- Font Awesome
 
 ### Build Tools
 - Gulp
