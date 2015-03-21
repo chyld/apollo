@@ -1,6 +1,5 @@
 ![Apollo](https://raw.githubusercontent.com/chyld/apollo/master/client/assets/screenshot.png)
 
-# Apollo
 ## Frontend Gulp Template + AWS S3 Upload
 
 ### Description
