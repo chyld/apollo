@@ -1,4 +1,5 @@
-# Frontend Template + AWS S3 Upload
+# Apollo
+## Frontend Gulp Template + AWS S3 Upload
 
 ### Description
 This front end template allows you to get your browser-based code up and running quickly. An example:
