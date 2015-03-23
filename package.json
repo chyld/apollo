@@ -3,5 +3,32 @@
   "version": "0.0.1",
   "homepage": "https://github.com/chyld/front-end-prototype",
   "author": "Chyld Medford <chyld.medford@gmail.com>",
-  "license": "BSD"
+  "license": "BSD",
+  "devDependencies": {
+    "bower": "^1.3.12",
+    "browser-sync": "^2.4.0",
+    "concurrent-transform": "^1.0.0",
+    "gulp": "^3.8.11",
+    "gulp-awspublish": "^1.0.6",
+    "gulp-bootlint": "^0.3.0",
+    "gulp-bower": "0.0.10",
+    "gulp-concat": "^2.5.2",
+    "gulp-copy": "0.0.2",
+    "gulp-debug": "^2.0.1",
+    "gulp-filesize": "0.0.6",
+    "gulp-if": "^1.2.5",
+    "gulp-jade": "^1.0.0",
+    "gulp-jshint": "^1.9.4",
+    "gulp-less": "^3.0.2",
+    "gulp-minify-css": "^1.0.0",
+    "gulp-rename": "^1.2.0",
+    "gulp-rev": "^3.0.1",
+    "gulp-rev-replace": "^0.4.0",
+    "gulp-uglify": "^1.1.0",
+    "gulp-util": "^3.0.4",
+    "gulp-watch": "^4.2.0",
+    "jshint-stylish": "^1.0.1",
+    "rimraf": "^2.3.2",
+    "run-sequence": "^1.0.2"
+  }
 }
