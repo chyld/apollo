@@ -6,6 +6,7 @@ var gulp = require('gulp');
 var jade = require('gulp-jade');
 var less = require('gulp-less');
 var lint = require('gulp-jshint');
+var bootlint = require('gulp-bootlint');
 var copy = require('gulp-copy');
 var util = require('gulp-util');
 var size = require('gulp-filesize');
@@ -136,6 +137,11 @@ gulp.task('lint-self', function() {
     .pipe(lint())
     .pipe(lint.reporter('jshint-stylish'))
     .on('error', util.log);
+});
+
+gulp.task('bootlint', function(){
+  return gulp.src('./public/*.html')
+    .pipe(bootlint())
 });
 
 gulp.task('copy', function() {

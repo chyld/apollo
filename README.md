@@ -31,6 +31,7 @@ Your web application is now live!
 ### 3rd Party Libraries
 - Lodash
 - Font Awesome
+- Bootstrap
 
 ### Build Tools
 - Gulp
@@ -38,6 +39,7 @@ Your web application is now live!
 - AWS S3 Bucket Upload
 - Jade/Less Transpiler
 - JsHint
+- Bootlint
 - Clean
 - Copy
 - Size
