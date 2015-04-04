@@ -26,6 +26,7 @@ var parallelize = require('concurrent-transform');
 var paths = {
   filesrc:  ['./client/**/*'],
   jadesrc:  ['./client/**/*.jade'],
+  htmlsrc:  ['./public/**/*.html'],
   lesssrc:  ['./client/index.less'],
   codesrc:  ['./client/**/*.js'],
   mediasrc: ['./client/assets/**/*', './client/favicon.ico'],
@@ -111,7 +112,7 @@ gulp.task('rev', ['less', 'js'], function() {
 gulp.task('replace', ['rev'], function() {
   var manifest = gulp.src(paths.manifest);
 
-  return gulp.src('./public/index.html')
+  return gulp.src(paths.htmlsrc)
     .pipe(replace({manifest: manifest}))
     .pipe(gulp.dest(paths.destination))
     .on('error', util.log);
