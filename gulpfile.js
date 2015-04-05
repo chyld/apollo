@@ -165,7 +165,8 @@ gulp.task('watch', function() {
 
 gulp.task('aws:publish', function() {
   var publisher = awspublish.create({bucket: process.env.AWS_BUCKET});
-  var headers = {'Cache-Control': 'max-age=315360000, public'};
+  //var headers = {'Cache-Control': 'max-age=315360000, public'};
+  var headers = {};
   return gulp.src('./public/**/*')
     .pipe(awspublish.gzip())
     .pipe(parallelize(publisher.publish(headers), 20))
