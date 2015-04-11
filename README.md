@@ -18,6 +18,7 @@ The base project is now setup and your browser should have automatically opened 
 export AWS_SECRET_ACCESS_KEY=your-secret-key
 export AWS_ACCESS_KEY_ID=your-access-key
 export AWS_BUCKET=your-bucket-name
+export AWS_REGION=your-region
 NODE_ENV=production gulp aws:publish:full
 ```
 
