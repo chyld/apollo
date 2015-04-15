@@ -6,7 +6,7 @@
 This front end template allows you to get your browser-based code up and running quickly. An example:
 
 ```
-git clone https://github.com/chyld/front-end-prototype my-app
+git clone https://github.com/chyld/apollo.git
 cd my-app
 ./setup.sh
 gulp
