@@ -47,3 +47,5 @@ Your web application is now live!
 - Uglify/Minify
 - Rename
 - Browser Sync w/Live Reload
+
+### Looking for [Poseidon](https://github.com/coding-house-apr2015/poseidon)?
